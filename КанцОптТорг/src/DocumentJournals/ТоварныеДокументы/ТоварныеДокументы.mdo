@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e79ab428-0310-4296-af54-87a9325f95ce">
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f80838d-4a3e-4218-85b7-c6cc291ef4bf">
   <producedTypes>
-    <selectionType typeId="f640a85f-6436-4393-910b-653d6e59b850" valueTypeId="a856a374-0185-495e-96ca-86f870319bc9"/>
-    <listType typeId="5529c618-f842-45d6-a742-547f7544851f" valueTypeId="83e16dc8-ae51-4db8-91c8-d904d41a1752"/>
-    <managerType typeId="67422c1e-de8d-4768-99b9-4c59668eb2a4" valueTypeId="cdabbed1-5d8b-40a0-af2d-75d7167bbdd9"/>
+    <selectionType typeId="a9a86dfa-9910-4057-8ea1-2b81147e1c45" valueTypeId="749b377e-118c-46f3-b8e4-996021500693"/>
+    <listType typeId="e1d13181-d993-4390-884c-500b2c2155e2" valueTypeId="e037c29b-4c69-43fa-b9a5-9f44e64aecec"/>
+    <managerType typeId="582715b3-ccc3-4582-b3f0-e4be6fb60a64" valueTypeId="145391af-9f9f-4d4f-b87d-9bba4501b1ab"/>
   </producedTypes>
   <name>ТоварныеДокументы</name>
   <synonym>
@@ -13,16 +13,16 @@
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
   <registeredDocuments>Document.РеализацияТоваров</registeredDocuments>
-  <columns uuid="d0015f9d-877d-4222-96f5-6e3a260d2db8">
+  <columns uuid="1426fc44-064b-49f4-8bdf-e8d829c0a37d">
     <name>Контрагент</name>
     <synonym>
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
     <references>Document.РеализацияТоваров.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
   </columns>
-  <columns uuid="de034235-9738-4b12-9d17-ff5e0a138db9">
+  <columns uuid="313a9e60-75d5-4c7a-952d-2dac57156cf4">
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>

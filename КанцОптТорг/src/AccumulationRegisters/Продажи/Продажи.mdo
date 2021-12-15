@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cd727b7-55b4-48fd-8c1e-ae58b59c98a0">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df60125d-add2-4215-8f3e-23c2fdb0ba70">
   <producedTypes>
-    <selectionType typeId="8cb1e2a1-b7d5-4744-a69a-f3d43fe040d6" valueTypeId="41866594-fbf1-4b73-8338-5a310528616d"/>
-    <listType typeId="a1d94e9e-7c48-4138-94f7-924f9705d059" valueTypeId="b3f567ba-29d2-40e7-8cb4-465989b73064"/>
-    <managerType typeId="981cf5ed-c154-4497-82b0-14fdb42b21d6" valueTypeId="11a18971-39f6-44e4-8e05-d386f29202ab"/>
-    <recordSetType typeId="8e5b2fef-99fd-423b-8cd0-bd42a9aa097d" valueTypeId="fa99cd2a-63f6-4332-8451-35e8302bc7aa"/>
-    <recordKeyType typeId="f3749a89-a6ee-422c-a7ef-d31337e85b28" valueTypeId="9c026ea8-1a83-47ba-a0e9-936744c2b441"/>
-    <recordType typeId="899268bb-1235-408d-91fb-32c588873372" valueTypeId="89849dc9-901f-42d4-9c40-eed88ed71c78"/>
+    <selectionType typeId="4463a043-cc4c-4023-b5e5-198370bd9980" valueTypeId="16cfc466-efa6-4ed6-8fb8-28008ef57da8"/>
+    <listType typeId="82828d01-4cb4-4968-b64b-4ef55d2b8908" valueTypeId="cfacfdcc-0729-48a1-b4a6-1d8d68482dbd"/>
+    <managerType typeId="38095e4f-8c43-4500-92ef-8e9720b8064f" valueTypeId="add7f661-863e-41aa-8cdc-c953baa18f12"/>
+    <recordSetType typeId="c7e6bbd7-c0f9-4511-89c7-544f88ac9594" valueTypeId="76570b31-8c17-48af-8d28-13d21364eeff"/>
+    <recordKeyType typeId="1c2e2e7e-5054-41c0-9ebd-51493bf5ce00" valueTypeId="2058194a-1d0e-471b-864a-777a443c376f"/>
+    <recordType typeId="fc2d02c5-83f1-46ec-8e29-77bf7561303e" valueTypeId="185206af-bb34-4624-bded-5115626f967a"/>
   </producedTypes>
-  <name>ОстаткиТоваров</name>
+  <name>Продажи</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки товаров</value>
+    <value>Продажи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="cdd665e6-5908-42c0-8615-75765633f2c8">
+  <resources uuid="b55ed8a4-f00e-476f-af81-c9649a885c63">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -33,7 +34,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="4dc952a9-5fca-4147-8a11-6ce71dfb814b">
+  <resources uuid="aa232280-4cbc-4cdf-bf39-d05d76884aa3">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -50,24 +51,37 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="360edfca-3051-41f4-a8e6-b34fd21fe10d">
-    <name>Выручка</name>
+  <resources uuid="2a1e8940-95b6-47a7-9688-d016fe6404d2">
+    <name>Себестоимость</name>
     <synonym>
       <key>ru</key>
-      <value>Выручка</value>
+      <value>Себестоимость</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
+        <precision>10</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
-  <dimensions uuid="cca3a527-06ea-4a14-8a18-b1ef26a20dc9">
+  </resources>
+  <dimensions uuid="e57b11b3-4b12-4e67-ab48-b212bf3a0eae">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="356f6bce-424e-49bb-b225-79d53b750234">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>

@@ -52,6 +52,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.БухОперация</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкиТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокументам</reports>

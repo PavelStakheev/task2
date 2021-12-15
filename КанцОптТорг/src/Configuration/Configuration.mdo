@@ -41,8 +41,10 @@
   </languages>
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
   <commonPictures>CommonPicture.КартинкаПродажи</commonPictures>
   <commonPictures>CommonPicture.КартинкаПродажи1</commonPictures>
+  <commonPictures>CommonPicture.КартинкаБух</commonPictures>
   <constants>Constant.НаименованиеОрганизации</constants>
   <constants>Constant.НаименованиеСклада</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -58,4 +60,6 @@
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
 </mdclass:Configuration>

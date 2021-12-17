@@ -47,6 +47,7 @@
 				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 		<denyIncompleteValues>true</denyIncompleteValues>
 	</parameter>
@@ -64,6 +65,7 @@
 				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 		<expression>КонецПериода(&amp;ОкончаниеПериода, "День")</expression>
 		<denyIncompleteValues>true</denyIncompleteValues>
@@ -108,6 +110,8 @@
 						<dcsset:field>Номенклатура</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>
@@ -122,6 +126,8 @@
 							<dcsset:field>Ответственный</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>

@@ -94,6 +94,12 @@
 		</columnsItem>
 	</columns>
 	<rowsItem>
+		<index>0</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>1</index>
 		<row>
 			<columnsID>16c8bb1d-0a47-4bca-84cb-7f4fc8e3f388</columnsID>
@@ -109,6 +115,13 @@
 					</tl>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<indexTo>3</indexTo>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -205,6 +218,13 @@
 					<parameter>Ответственный</parameter>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<indexTo>9</indexTo>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -340,13 +360,14 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Шапка</name>
+		<name>Товары</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>3</beginRow>
-			<endRow>7</endRow>
+			<beginRow>11</beginRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
+			<columnsID>09a7b09a-9eec-4a9f-9a09-f905ad27a88d</columnsID>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -360,14 +381,13 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>Товары</name>
+		<name>Шапка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>11</beginRow>
-			<endRow>11</endRow>
+			<beginRow>3</beginRow>
+			<endRow>7</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
-			<columnsID>09a7b09a-9eec-4a9f-9a09-f905ad27a88d</columnsID>
 		</area>
 	</namedItem>
 	<line width="1" gap="false">
@@ -483,5 +503,4 @@
 		<autoIndent>0</autoIndent>
 		<columnSizeChange>QuickChange</columnSizeChange>
 	</format>
-	<textDirection>LeftToRight</textDirection>
 </document>

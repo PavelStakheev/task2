@@ -25,8 +25,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПоступлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
-  <registerRecords>AccumulationRegister.Закупки</registerRecords>
   <registerRecords>AccountingRegister.РегистрБухУчет</registerRecords>
+  <registerRecords>AccumulationRegister.Закупки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="70c56f61-8608-4f3f-84cc-a136ff95ea83">

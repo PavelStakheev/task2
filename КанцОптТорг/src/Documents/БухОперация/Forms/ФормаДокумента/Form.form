@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Номер</name>
     <id>1</id>
@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Номер</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Number</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НомерРасширеннаяПодсказка</name>
@@ -58,8 +60,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Дата</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Date</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ДатаРасширеннаяПодсказка</name>
@@ -109,7 +113,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Движения.РегистрБухУчет</segments>
+      <segments>Объект.RegisterRecords.РегистрБухУчет</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
@@ -121,12 +125,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Объект.RegisterRecords.РегистрБухУчет.LineNumber</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Движения.РегистрБухУчет.НомерСтроки</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -177,12 +177,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Объект.RegisterRecords.РегистрБухУчет.AccountDr</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Движения.РегистрБухУчет.СчетДт</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -233,12 +229,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Объект.RegisterRecords.РегистрБухУчет.AccountCr</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Движения.РегистрБухУчет.СчетКт</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -289,12 +281,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Объект.RegisterRecords.РегистрБухУчет.Сумма</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Движения.РегистрБухУчет.Сумма</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -503,6 +491,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -535,10 +524,8 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Движения</segments>
-      </paths>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>

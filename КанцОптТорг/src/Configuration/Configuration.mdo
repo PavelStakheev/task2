@@ -42,9 +42,12 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.Зарплата</subsystems>
   <commonPictures>CommonPicture.КартинкаПродажи</commonPictures>
   <commonPictures>CommonPicture.КартинкаПродажи1</commonPictures>
   <commonPictures>CommonPicture.КартинкаБух</commonPictures>
+  <commonPictures>CommonPicture.ЗарплатаКартинка</commonPictures>
+  <commonPictures>CommonPicture.КартинкаЗарплата</commonPictures>
   <constants>Constant.НаименованиеОрганизации</constants>
   <constants>Constant.НаименованиеСклада</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -54,15 +57,21 @@
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.БухОперация</documents>
   <documents>Document.ЗакрытиеМесяца</documents>
+  <documents>Document.ЗаполнениеГрафикаПредприятия</documents>
+  <documents>Document.НачислениеОклада</documents>
+  <documents>Document.НевыходСотрудника</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкиТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокументам</reports>
   <reports>Report.ВаловаяПрибыль</reports>
   <reports>Report.ОстаткиПоСчетамБУ</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикПредприятия</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.РегистрНачисленияЗарплаты</calculationRegisters>
 </mdclass:Configuration>

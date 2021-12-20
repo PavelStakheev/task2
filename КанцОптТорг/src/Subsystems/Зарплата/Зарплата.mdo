@@ -19,4 +19,6 @@
   <content>AccumulationRegister.ЗадолженностьПередСотрудниками</content>
   <content>Document.ВыплатаЗП</content>
   <content>Report.ЗадолженностьПередСотрудниками</content>
+  <content>BusinessProcess.ТестированиеКандидата</content>
+  <content>Task.ЗадачаТестированиеКандидата</content>
 </mdclass:Subsystem>

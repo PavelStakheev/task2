@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a358ba5f-5ce4-47b8-af08-8aeb54cb36d5">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5355fb3b-2236-49b6-82d1-e0e1d15b93c1">
   <producedTypes>
-    <objectType typeId="0a2c0470-caba-46bc-9766-3944b6d6fec4" valueTypeId="aad05ed4-42ba-47fe-96d2-d30c7ecd1c9b"/>
-    <refType typeId="bef5e9d2-778b-43f7-ae35-badd617eba46" valueTypeId="29071de0-92a9-49f7-98ff-4eeb4e1e61ce"/>
-    <selectionType typeId="91e3d8f7-0c4b-4e58-a21e-f4c85a20bc94" valueTypeId="234fabf3-b246-4cd3-9e17-de3d5b689252"/>
-    <listType typeId="d0dbd885-edd3-433d-9d43-85aa554d3b38" valueTypeId="2fa05c06-3b2f-4d52-bb46-26b9a201eb34"/>
-    <managerType typeId="ef06e94f-f7e4-4397-b240-c30f943a94d6" valueTypeId="5c7aa1e0-8e70-419f-99d8-444b5f840d3b"/>
+    <objectType typeId="83fdd94c-cccb-452d-9a73-4f07994f3911" valueTypeId="19044866-92d3-478f-854f-920b4d1f2988"/>
+    <refType typeId="1d1a9f8f-4132-4e6c-afa3-2bd811547fc6" valueTypeId="ed5838ab-6154-4188-bfa2-84d85f7e3908"/>
+    <selectionType typeId="742ddf08-a4f8-4a09-8a50-b2582a54411b" valueTypeId="086bf856-2bb4-4bdb-8b4f-f424c84c79b6"/>
+    <listType typeId="426cde4e-563a-4951-8a8c-bc98d1da937b" valueTypeId="a6fe1b04-fcbb-42fa-a200-75d451b5861d"/>
+    <managerType typeId="988ae459-2426-4eb6-b453-0d52538a3a8a" valueTypeId="d35715b9-88cf-4290-ba20-da5efe93519f"/>
   </producedTypes>
-  <name>НачисленияПремий</name>
+  <name>ВыплатаЗП</name>
   <synonym>
     <key>ru</key>
-    <value>Начисления премий</value>
+    <value>Выплата ЗП</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.НачисленияПремий.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВыплатаЗП.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,21 +23,20 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>CalculationRegister.РегистрНачисленияЗарплаты</registerRecords>
   <registerRecords>AccumulationRegister.ЗадолженностьПередСотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <tabularSections uuid="015b6be9-0b0c-4b1b-96a6-15b9e7b97616">
+  <tabularSections uuid="ee8a6877-cf0c-41d6-b5b1-95b83e530920">
     <producedTypes>
-      <objectType typeId="78c384eb-33a8-4166-9dbc-7406493adbb1" valueTypeId="c1e5cfdf-a9ed-4a4b-98ec-07b75bf74e04"/>
-      <rowType typeId="e044bcff-3b56-4684-b666-9531e0007697" valueTypeId="56050e1c-50fd-44eb-aae5-34a1d77f5b8a"/>
+      <objectType typeId="7e2c9c82-5bf9-4a23-955e-39db5ce9ff10" valueTypeId="883184e8-cc8e-4fd1-8bf8-63936aca5cf0"/>
+      <rowType typeId="10469dce-e335-4e37-8ae6-841d94be4b5a" valueTypeId="3f667700-fe86-430a-885a-7a6d5569ceb0"/>
     </producedTypes>
     <name>Сотрудники</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудники</value>
     </synonym>
-    <attributes uuid="7dcf4a4a-007b-46ad-b249-73a74e0b6ae3">
+    <attributes uuid="d5f9b1ff-a048-4f28-abdf-9622d6f4cec9">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -51,11 +50,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="90453ab0-0097-4cc1-b3de-42a4235affb1">
-      <name>СуммаПремии</name>
+    <attributes uuid="c12bde81-a59a-40ae-a14b-d9d426cf6609">
+      <name>Сумма</name>
       <synonym>
         <key>ru</key>
-        <value>Сумма премии</value>
+        <value>Сумма</value>
       </synonym>
       <type>
         <types>Number</types>

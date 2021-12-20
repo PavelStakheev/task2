@@ -16,4 +16,7 @@
   <content>Document.НачислениеОклада</content>
   <content>ChartOfCalculationTypes.Начисления</content>
   <content>Document.НачисленияПремий</content>
+  <content>AccumulationRegister.ЗадолженностьПередСотрудниками</content>
+  <content>Document.ВыплатаЗП</content>
+  <content>Report.ЗадолженностьПередСотрудниками</content>
 </mdclass:Subsystem>

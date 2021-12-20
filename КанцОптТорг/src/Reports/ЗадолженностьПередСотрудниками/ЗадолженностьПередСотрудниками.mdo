@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f358646-e3bd-4e82-9870-6912bb782107">
+  <producedTypes>
+    <objectType typeId="979fdb37-3bb2-42c9-95c6-01f179b0431d" valueTypeId="2ae2b12e-c519-45d1-bed4-48b92183acae"/>
+    <managerType typeId="2f10c8bb-6dc0-4b1b-88a3-d76cfbc6c27a" valueTypeId="c1de5d14-b586-4fd7-a6ab-6f011bd75ad9"/>
+  </producedTypes>
+  <name>ЗадолженностьПередСотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность перед сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗадолженностьПередСотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6df6aa73-e89c-4019-82ff-3373281f0e8f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

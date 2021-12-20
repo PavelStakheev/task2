@@ -68,6 +68,7 @@
   <reports>Report.ВаловаяПрибыль</reports>
   <reports>Report.ОстаткиПоСчетамБУ</reports>
   <reports>Report.ЗадолженностьПередСотрудниками</reports>
+  <reports>Report.КлассификацияНоменклатуры</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикПредприятия</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
